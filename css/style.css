@@ -1,0 +1,72 @@
+/*
+Name: Joshua Michaud
+Email: Joshua_Michaud@student.uml.edu
+Affiliation: Student at Umass Lowell Computer Science
+Date Created: 9/18/2020
+Date Updated: 9/22/2020
+Description: External style sheet for index.html
+Location: ~jmichaud/public_html/css/style.css
+91.461 Assignment: First Web Page Part 2
+Joshua Michaud, UMass Lowell Computer Science,
+Copyright (c) 2020 by Joshua Michaud. All rights reserved. May be
+freely copied or excerpted for educational purposes with credit to the author.
+*/
+
+
+/*This sets my background for the whole web page*/
+
+*{
+  color: white;
+}
+
+
+body, html{
+  height: 100%;
+}
+
+.bg-mybg{
+  background-image: url(../images/background.jpg);
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#nav_bar{
+  background-color: black;
+}
+
+.jumbotron{
+  background: none;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+/*This sets the about me to the center of the page*/
+#about-me{
+  /*gradient from w3schools https://www.w3schools.com/css/css3_gradients.asp*/
+  background-image: linear-gradient(to top left, rgba(255,0,0,0), rgba(0,0,0,1));
+}
+
+/*This allows the text to change color when hovering over my sideNav homeworks*/
+.navbar-nav a:hover{
+  color: red;
+}
+
+.nav-link{
+  text-align: center;
+  font-family: cursive;
+}
+
+.dropdown-menu{
+  background-color: gray;
+  font-family: cursive;
+}
+
+.footer{
+  bottom 0;
+}
