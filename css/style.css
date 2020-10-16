@@ -2,14 +2,14 @@
 Name: Joshua Michaud
 Email: Joshua_Michaud@student.uml.edu
 Affiliation: Student at Umass Lowell Computer Science
-Date Created: 9/18/2020
-Date Updated: 9/22/2020
-Description: External style sheet for index.html
-Location: ~jmichaud/public_html/css/style.css
-91.461 Assignment: First Web Page Part 2
+Date: 10/15/2020
+Description: Website implements Bootstrap
+Location: ~jmichaud/public_html/index.html
+91.461 Assignment 4: Bootstrap
 Joshua Michaud, UMass Lowell Computer Science,
 Copyright (c) 2020 by Joshua Michaud. All rights reserved. May be
 freely copied or excerpted for educational purposes with credit to the author.
+Validated code using the HTML5 Living Validator (http://validator.nu/)
 */
 
 
@@ -74,8 +74,7 @@ body, html{
 
 /* This allows the pictures to be centered inside the carousel */
 .carousel-inner img {
-   display:block;
-   height: auto;
+   /*height: auto;*/
    max-width: 80%;
 }
 
