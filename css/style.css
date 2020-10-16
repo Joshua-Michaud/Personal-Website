@@ -14,17 +14,22 @@ freely copied or excerpted for educational purposes with credit to the author.
 
 
 /*This sets my background for the whole web page*/
+#footer{
+  color: black;
+}
 
+/*
 *{
   color: white;
 }
-
+*/
 
 body, html{
-  height: 100%;
+  height: auto;
 }
 
 .bg-mybg{
+  color: white;
   background-image: url(../images/background.jpg);
   height: auto;
   background-position: center;
@@ -42,7 +47,7 @@ body, html{
 }
 
 .container {
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 
@@ -67,6 +72,14 @@ body, html{
   font-family: cursive;
 }
 
-.footer{
-  bottom 0;
+/* This allows the pictures to be centered inside the carousel */
+.carousel-inner img {
+   display:block;
+   height: auto;
+   max-width: 80%;
+}
+
+
+.carousel{
+  interval: 500;
 }
