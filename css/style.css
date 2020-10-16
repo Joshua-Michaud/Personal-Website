@@ -3,7 +3,7 @@ Name: Joshua Michaud
 Email: Joshua_Michaud@student.uml.edu
 Affiliation: Student at Umass Lowell Computer Science
 Date: 10/15/2020
-Description: Website implements Bootstrap
+Description: Updating homework 2 using Bootstrap
 Location: ~jmichaud/public_html/index.html
 91.461 Assignment 4: Bootstrap
 Joshua Michaud, UMass Lowell Computer Science,
@@ -13,21 +13,15 @@ Validated code using the HTML5 Living Validator (http://validator.nu/)
 */
 
 
-/*This sets my background for the whole web page*/
-#footer{
-  color: black;
-}
-
-/*
 *{
   color: white;
 }
-*/
 
 body, html{
   height: auto;
 }
 
+/*This sets my background for the whole web page*/
 .bg-mybg{
   color: white;
   background-image: url(../images/background.jpg);
@@ -62,11 +56,19 @@ body, html{
   color: red;
 }
 
+/* This changes my github icon to white and changes it size */
+nav i {
+    font-size: 36px;
+    color: white;
+}
+
+/* Centers the text and makes the text cursive */
 .nav-link{
   text-align: center;
   font-family: cursive;
 }
 
+/* This makes the dropdown have a gray background and make the writing cursive */
 .dropdown-menu{
   background-color: gray;
   font-family: cursive;
@@ -74,11 +76,6 @@ body, html{
 
 /* This allows the pictures to be centered inside the carousel */
 .carousel-inner img {
-   /*height: auto;*/
-   max-width: 80%;
-}
-
-
-.carousel{
-  interval: 500;
+   height: auto;
+   max-width: 70%;
 }
